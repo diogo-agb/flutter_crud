@@ -13,7 +13,7 @@ class _CrudState extends State<Crud> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue[200],
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: UserList(),
